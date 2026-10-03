@@ -2,10 +2,11 @@ package com.example.powerping.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// 绿色主色，与启动图标（#4ADE80 → #059669 渐变）呼应
+val Green80 = Color(0xFF4ADE80)
+val GreenGrey80 = Color(0xFFB7CCBA)
+val Teal80 = Color(0xFF52D0BE)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val Green40 = Color(0xFF059669)
+val GreenGrey40 = Color(0xFF4F6354)
+val Teal40 = Color(0xFF00695C)
