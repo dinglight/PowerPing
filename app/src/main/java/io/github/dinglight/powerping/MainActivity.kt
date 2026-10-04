@@ -1,4 +1,4 @@
-package com.example.powerping
+package io.github.dinglight.powerping
 
 import android.Manifest
 import android.content.BroadcastReceiver
@@ -23,12 +23,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.core.content.ContextCompat
-import com.example.powerping.alarm.AlarmPlayer
-import com.example.powerping.data.PrefsRepository
-import com.example.powerping.service.ChargeMonitorService
-import com.example.powerping.service.MonitorBus
-import com.example.powerping.ui.MonitorScreen
-import com.example.powerping.ui.theme.PowerPingTheme
+import io.github.dinglight.powerping.alarm.AlarmPlayer
+import io.github.dinglight.powerping.data.PrefsRepository
+import io.github.dinglight.powerping.service.ChargeMonitorService
+import io.github.dinglight.powerping.service.MonitorBus
+import io.github.dinglight.powerping.ui.MonitorScreen
+import io.github.dinglight.powerping.ui.theme.PowerPingTheme
 
 class MainActivity : ComponentActivity() {
 

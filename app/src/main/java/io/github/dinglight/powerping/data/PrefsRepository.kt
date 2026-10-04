@@ -1,4 +1,4 @@
-package com.example.powerping.data
+package io.github.dinglight.powerping.data
 
 import android.content.Context
 import android.content.SharedPreferences

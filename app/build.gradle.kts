@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.powerping"
+    namespace = "io.github.dinglight.powerping"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.powerping"
+        applicationId = "io.github.dinglight.powerping"
         minSdk = 24
         targetSdk = 37
         versionCode = 2

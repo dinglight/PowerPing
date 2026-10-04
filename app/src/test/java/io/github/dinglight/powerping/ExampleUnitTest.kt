@@ -1,4 +1,4 @@
-package com.example.powerping
+package io.github.dinglight.powerping
 
 import org.junit.Test
 

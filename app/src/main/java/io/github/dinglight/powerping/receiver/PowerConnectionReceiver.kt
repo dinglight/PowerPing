@@ -1,11 +1,11 @@
-package com.example.powerping.receiver
+package io.github.dinglight.powerping.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.example.powerping.data.PrefsRepository
-import com.example.powerping.notify.Notifications
-import com.example.powerping.service.ChargeMonitorService
+import io.github.dinglight.powerping.data.PrefsRepository
+import io.github.dinglight.powerping.notify.Notifications
+import io.github.dinglight.powerping.service.ChargeMonitorService
 
 /**
  * 插拔充电器广播（隐式广播豁免清单，可静态注册）。

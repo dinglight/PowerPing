@@ -1,4 +1,4 @@
-package com.example.powerping.ui
+package io.github.dinglight.powerping.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -30,9 +30,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.powerping.R
-import com.example.powerping.service.MonitorState
-import com.example.powerping.service.MonitorStatus
+import io.github.dinglight.powerping.R
+import io.github.dinglight.powerping.service.MonitorState
+import io.github.dinglight.powerping.service.MonitorStatus
 import kotlin.math.roundToInt
 
 @Composable

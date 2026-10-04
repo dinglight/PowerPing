@@ -1,4 +1,4 @@
-package com.example.powerping.service
+package io.github.dinglight.powerping.service
 
 import android.app.Notification
 import android.app.Service
@@ -12,9 +12,9 @@ import android.os.Build
 import android.os.IBinder
 import android.os.PowerManager
 import androidx.core.content.ContextCompat
-import com.example.powerping.alarm.AlarmPlayer
-import com.example.powerping.data.PrefsRepository
-import com.example.powerping.notify.Notifications
+import io.github.dinglight.powerping.alarm.AlarmPlayer
+import io.github.dinglight.powerping.data.PrefsRepository
+import io.github.dinglight.powerping.notify.Notifications
 
 /**
  * 前台服务（specialUse）：常驻监控电量，sticky 广播事件驱动，零轮询。
@@ -221,10 +221,10 @@ class ChargeMonitorService : Service() {
     }
 
     companion object {
-        const val ACTION_START = "com.example.powerping.action.START"
-        const val ACTION_STOP = "com.example.powerping.action.STOP"
-        const val ACTION_STOP_ALERT = "com.example.powerping.action.STOP_ALERT"
-        const val ACTION_APPLY_SETTINGS = "com.example.powerping.action.APPLY_SETTINGS"
+        const val ACTION_START = "io.github.dinglight.powerping.action.START"
+        const val ACTION_STOP = "io.github.dinglight.powerping.action.STOP"
+        const val ACTION_STOP_ALERT = "io.github.dinglight.powerping.action.STOP_ALERT"
+        const val ACTION_APPLY_SETTINGS = "io.github.dinglight.powerping.action.APPLY_SETTINGS"
 
         private const val WAKE_LOCK_TIMEOUT_MS = 30L * 60 * 1000
 

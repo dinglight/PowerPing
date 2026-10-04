@@ -1,4 +1,4 @@
-package com.example.powerping
+package io.github.dinglight.powerping
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.powerping", appContext.packageName)
+        assertEquals("io.github.dinglight.powerping", appContext.packageName)
     }
 }

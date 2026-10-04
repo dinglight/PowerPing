@@ -1,4 +1,4 @@
-package com.example.powerping.notify
+package io.github.dinglight.powerping.notify
 
 import android.Manifest
 import android.app.Notification
@@ -12,11 +12,11 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import com.example.powerping.MainActivity
-import com.example.powerping.R
-import com.example.powerping.service.ChargeMonitorService
-import com.example.powerping.service.MonitorState
-import com.example.powerping.service.MonitorStatus
+import io.github.dinglight.powerping.MainActivity
+import io.github.dinglight.powerping.R
+import io.github.dinglight.powerping.service.ChargeMonitorService
+import io.github.dinglight.powerping.service.MonitorState
+import io.github.dinglight.powerping.service.MonitorStatus
 
 object Notifications {
 

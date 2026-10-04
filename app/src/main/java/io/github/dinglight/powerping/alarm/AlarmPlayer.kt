@@ -1,4 +1,4 @@
-package com.example.powerping.alarm
+package io.github.dinglight.powerping.alarm
 
 import android.content.Context
 import android.media.AudioAttributes
@@ -6,7 +6,7 @@ import android.media.AudioManager
 import android.media.MediaPlayer
 import android.media.RingtoneManager
 import android.net.Uri
-import com.example.powerping.R
+import io.github.dinglight.powerping.R
 
 /**
  * 闹铃播放器：MediaPlayer + isLooping 原生循环；

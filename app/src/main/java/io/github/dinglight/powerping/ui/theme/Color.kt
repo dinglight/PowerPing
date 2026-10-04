@@ -1,4 +1,4 @@
-package com.example.powerping.ui.theme
+package io.github.dinglight.powerping.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

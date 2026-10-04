@@ -1,4 +1,4 @@
-package com.example.powerping.service
+package io.github.dinglight.powerping.service
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
