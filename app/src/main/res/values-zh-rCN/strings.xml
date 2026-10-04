@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PowerPing</string>
+
+    <!-- 状态文案 -->
+    <string name="state_idle">已停止</string>
+    <string name="state_armed">已就绪 · 等待充电</string>
+    <string name="state_monitoring">充电监控中</string>
+    <string name="state_alerting">正在提醒 · 请拔掉充电器</string>
+    <string name="state_done">本次充电已提醒 · 可拔充电器</string>
+    <string name="charging_mark">⚡充电中</string>
+
+    <!-- 界面 -->
+    <string name="target_battery">目标电量</string>
+    <string name="distance_to_target">距目标 %1$d%% 还剩 %2$d%%</string>
+    <string name="start_monitoring">开始监控</string>
+    <string name="stop_monitoring">停止监控</string>
+    <string name="preview_alarm">试听闹铃</string>
+    <string name="permission_hint">未授予通知权限：提醒仍会响铃，但无法在通知栏显示提醒和"停止"按钮。建议在系统设置中允许通知。</string>
+    <string name="info_text">说明：开启监控后，应用会常驻通知栏并在开机、插入充电器时自动恢复监控。\n\n若手机后台清理较激进（如 MIUI/HyperOS、EMUI、ColorOS），请在系统设置中允许本应用"自启动"和"后台运行"。\n\n提醒音跟随系统"闹钟音量"；若到阈值没听到，请检查闹钟音量是否为 0、勿扰模式是否允许闹钟。</string>
+
+    <!-- 通知 -->
+    <string name="notif_channel_monitor_name">充电监控</string>
+    <string name="notif_channel_monitor_desc">常驻的充电监控状态通知</string>
+    <string name="notif_channel_alert_name">充电提醒闹铃</string>
+    <string name="notif_channel_alert_desc">达到充电阈值时的提醒通知</string>
+    <string name="notif_armed">监控已就绪 · 等待插入充电器</string>
+    <string name="notif_monitoring">充电中 %1$d%% · 目标 %2$d%%</string>
+    <string name="notif_done">本次充电已提醒 · 可拔充电器</string>
+    <string name="notif_alert_title">已充到 %1$d%%</string>
+    <string name="notif_alert_text">请拔掉充电器，保护电池健康（目标 %1$d%%）</string>
+    <string name="notif_volume_zero">闹钟音量为 0，可能听不到提醒</string>
+    <string name="notif_stop_alert">停止提醒</string>
+    <string name="notif_fallback_title">PowerPing 需要你点一下</string>
+    <string name="notif_fallback_text">已接入充电器，点我开始充电监控</string>
+</resources>
