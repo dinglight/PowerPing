@@ -1,0 +1,1 @@
+Initial F-Droid release: charge-threshold alarm (50-95%), one alert per charging session with smart debounce, event-driven zero-drain monitoring, auto-resume on reboot/plug-in, alarm preview, English & Simplified Chinese.

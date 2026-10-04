@@ -1,0 +1,17 @@
+PowerPing is a charge-threshold alarm. Plug in your phone and it rings an alarm the moment the battery reaches the level you set — unplug in time, protect battery health, and stop overnight overcharging.
+
+<b>Features</b>
+
+* Charge target alarm: pick a threshold between 50% and 95%. When your battery reaches it during charging, a looping alarm (following the system alarm volume) reminds you to unplug.
+* One alert per charge: smart debounce — the alarm fires once per charging session, so tiny fluctuations around the threshold won't re-trigger it. Unplugging resets it for the next session.
+* Zero-drain monitoring: event-driven battery tracking via system broadcasts. No polling, no wasted battery.
+* Auto-resume: monitoring restarts automatically after reboot and when a charger is plugged in.
+* Alarm preview: try the alert sound any time with one tap.
+* Lightweight single-screen UI with live charge status.
+
+<b>Notes</b>
+
+* The alert follows the system <i>alarm volume</i> — if you don't hear it, check that the alarm volume isn't muted.
+* On aggressive ROMs (MIUI/HyperOS, EMUI, ColorOS), please allow auto-start and background running so monitoring isn't killed.
+
+PowerPing is free and open-source software, licensed under the GNU GPL v3. It contains no ads, no trackers and requests no unnecessary permissions.
